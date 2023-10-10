@@ -5,7 +5,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/linxGnu/grocksdb"
-	"github.com/trezor/blockbook/bchain"
+	"github.com/stepollo2/blockbook/bchain"
 )
 
 // bulk connect

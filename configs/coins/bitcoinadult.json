@@ -1,0 +1,67 @@
+{
+    "coin": {
+      "name": "Bitcoinadult",
+      "shortcut": "BTAD",
+      "label": "BTAD",
+      "alias": "bitcoinadult"
+    },
+    "ports": {
+      "backend_rpc": 23452,
+      "backend_message_queue": 38342,
+      "blockbook_internal": 9042,
+      "blockbook_public": 9142
+    },
+    "ipc": {
+      "rpc_url_template": "http://127.0.0.1:{{.Ports.BackendRPC}}",
+      "rpc_user": "bitcoinadult",
+      "rpc_pass": "bitcoinadultrpc",
+      "rpc_timeout": 25,
+      "message_queue_binding_template": "tcp://127.0.0.1:{{.Ports.BackendMessageQueue}}"
+    },
+    "backend": {
+      "package_name": "backend-bitcoinadult",
+      "package_revision": "satoshilabs-1",
+      "system_user": "bitcoinadult",
+      "version": "1.2.1",
+      "binary_url": "https://github.com/BitcoinAdultNg/BitcoinAdult/releases/download/V1.2.1/BitcoinAdult_V1.2.1_Linux_X64.zip",
+      "verification_type": "sha256",
+      "verification_source": "b7d5c934ad6733c6e98ce828c65ec0aaafbcf0257e670c32efaa127c7122b426",
+      "extract_command": "unzip -j -d backend",
+      "exclude_files": [
+        "BitcoinAdult-qt"
+      ],
+      "exec_command_template": "{{.Env.BackendInstallPath}}/{{.Coin.Alias}}/BitcoinAdultd -datadir={{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend -conf={{.Env.BackendInstallPath}}/{{.Coin.Alias}}/{{.Coin.Alias}}.conf -pid=/run/{{.Coin.Alias}}/{{.Coin.Alias}}.pid",
+      "logrotate_files_template": "{{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend/*.log",
+      "postinst_script_template": "",
+      "service_type": "forking",
+      "service_additional_params_template": "",
+      "protect_memory": false,
+      "mainnet": true,
+      "server_config_file": "bitcoin_like.conf",
+      "client_config_file": "bitcoin_like_client.conf",
+      "additional_params": {
+        "whitelist": "127.0.0.1"
+      }
+    },
+    "blockbook": {
+      "package_name": "blockbook-bitcoinadult",
+      "system_user": "blockbook-bitcoinadult",
+      "internal_binding_template": ":{{.Ports.BlockbookInternal}}",
+      "public_binding_template": ":{{.Ports.BlockbookPublic}}",
+      "explorer_url": "",
+      "additional_params": "",
+      "block_chain": {
+        "parse": true,
+        "mempool_workers": 1,
+        "mempool_sub_workers": 1,
+        "block_addresses_to_keep": 300,
+        "xpub_magic": 36513075,
+        "slip44": 837,
+        "additional_params": {}
+      }
+    },
+    "meta": {
+      "package_maintainer": "BTAD devs",
+      "package_maintainer_email": "info@bitcoinadult.eu"
+    }
+  }

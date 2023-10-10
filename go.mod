@@ -1,4 +1,4 @@
-module github.com/trezor/blockbook
+module github.com/stepollo2/blockbook
 
 go 1.19
 

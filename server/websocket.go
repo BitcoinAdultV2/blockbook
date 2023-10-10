@@ -14,11 +14,11 @@ import (
 	"github.com/golang/glog"
 	"github.com/gorilla/websocket"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/api"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
-	"github.com/trezor/blockbook/fiat"
+	"github.com/stepollo2/blockbook/api"
+	"github.com/stepollo2/blockbook/bchain"
+	"github.com/stepollo2/blockbook/common"
+	"github.com/stepollo2/blockbook/db"
+	"github.com/stepollo2/blockbook/fiat"
 )
 
 const upgradeFailed = "Upgrade failed: "
