@@ -8,7 +8,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/juju/errors"
-	"github.com/stepollo2/blockbook/common"
+	"github.com/BitcoinAdultV2/blockbook/common"
 	"google.golang.org/protobuf/proto"
 )
 

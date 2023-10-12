@@ -235,7 +235,7 @@ Get blockbook sources, install dependencies, build:
 
 ```
 cd $GOPATH/src
-git clone https://github.com/stepollo2/blockbook.git
+git clone https://github.com/BitcoinAdultV2/blockbook.git
 cd blockbook
 go build
 ```

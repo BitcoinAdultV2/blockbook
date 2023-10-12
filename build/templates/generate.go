@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/stepollo2/blockbook/build/tools"
+	"github.com/BitcoinAdultV2/blockbook/build/tools"
 )
 
 const (

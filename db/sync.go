@@ -8,8 +8,8 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/juju/errors"
-	"github.com/stepollo2/blockbook/bchain"
-	"github.com/stepollo2/blockbook/common"
+	"github.com/BitcoinAdultV2/blockbook/bchain"
+	"github.com/BitcoinAdultV2/blockbook/common"
 )
 
 // SyncWorker is handle to SyncWorker

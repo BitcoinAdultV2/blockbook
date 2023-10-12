@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/stepollo2/blockbook/api"
-	"github.com/stepollo2/blockbook/common"
+	"github.com/BitcoinAdultV2/blockbook/api"
+	"github.com/BitcoinAdultV2/blockbook/common"
 )
 
 type tpl int

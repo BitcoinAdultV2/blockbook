@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/stepollo2/blockbook/bchain"
-	"github.com/stepollo2/blockbook/common"
-	"github.com/stepollo2/blockbook/db"
+	"github.com/BitcoinAdultV2/blockbook/bchain"
+	"github.com/BitcoinAdultV2/blockbook/common"
+	"github.com/BitcoinAdultV2/blockbook/db"
 )
 
 var testMap = map[string]func(t *testing.T, th *TestHandler){

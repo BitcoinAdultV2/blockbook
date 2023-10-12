@@ -16,10 +16,10 @@ import (
 	vlq "github.com/bsm/go-vlq"
 	"github.com/juju/errors"
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/stepollo2/blockbook/bchain"
-	"github.com/stepollo2/blockbook/bchain/coins/btc"
-	"github.com/stepollo2/blockbook/common"
-	"github.com/stepollo2/blockbook/tests/dbtestdata"
+	"github.com/BitcoinAdultV2/blockbook/bchain"
+	"github.com/BitcoinAdultV2/blockbook/bchain/coins/btc"
+	"github.com/BitcoinAdultV2/blockbook/common"
+	"github.com/BitcoinAdultV2/blockbook/tests/dbtestdata"
 )
 
 // simplified explanation of signed varint packing, used in many index data structures

@@ -11,8 +11,8 @@ import (
 	"github.com/martinboehm/btcutil/base58"
 	"github.com/martinboehm/btcutil/chaincfg"
 	"github.com/martinboehm/btcutil/hdkeychain"
-	"github.com/stepollo2/blockbook/bchain"
-	"github.com/stepollo2/blockbook/bchain/coins/btc"
+	"github.com/BitcoinAdultV2/blockbook/bchain"
+	"github.com/BitcoinAdultV2/blockbook/bchain/coins/btc"
 )
 
 // magic numbers

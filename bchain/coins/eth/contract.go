@@ -8,7 +8,7 @@ import (
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/juju/errors"
-	"github.com/stepollo2/blockbook/bchain"
+	"github.com/BitcoinAdultV2/blockbook/bchain"
 )
 
 const erc20TransferMethodSignature = "0xa9059cbb"                  // transfer(address,uint256)

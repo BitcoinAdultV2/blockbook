@@ -1,4 +1,4 @@
-module github.com/stepollo2/blockbook
+module github.com/BitcoinAdultV2/blockbook
 
 go 1.19
 

@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/stepollo2/blockbook/bchain"
-	"github.com/stepollo2/blockbook/bchain/coins/btc"
+	"github.com/BitcoinAdultV2/blockbook/bchain"
+	"github.com/BitcoinAdultV2/blockbook/bchain/coins/btc"
 )
 
 var (

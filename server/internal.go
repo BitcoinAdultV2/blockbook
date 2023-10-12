@@ -10,11 +10,11 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/stepollo2/blockbook/api"
-	"github.com/stepollo2/blockbook/bchain"
-	"github.com/stepollo2/blockbook/common"
-	"github.com/stepollo2/blockbook/db"
-	"github.com/stepollo2/blockbook/fiat"
+	"github.com/BitcoinAdultV2/blockbook/api"
+	"github.com/BitcoinAdultV2/blockbook/bchain"
+	"github.com/BitcoinAdultV2/blockbook/common"
+	"github.com/BitcoinAdultV2/blockbook/db"
+	"github.com/BitcoinAdultV2/blockbook/fiat"
 )
 
 // InternalServer is handle to internal http server

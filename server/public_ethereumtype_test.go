@@ -11,11 +11,11 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/linxGnu/grocksdb"
-	"github.com/stepollo2/blockbook/bchain"
-	"github.com/stepollo2/blockbook/bchain/coins/eth"
-	"github.com/stepollo2/blockbook/common"
-	"github.com/stepollo2/blockbook/db"
-	"github.com/stepollo2/blockbook/tests/dbtestdata"
+	"github.com/BitcoinAdultV2/blockbook/bchain"
+	"github.com/BitcoinAdultV2/blockbook/bchain/coins/eth"
+	"github.com/BitcoinAdultV2/blockbook/common"
+	"github.com/BitcoinAdultV2/blockbook/db"
+	"github.com/BitcoinAdultV2/blockbook/tests/dbtestdata"
 )
 
 func httpTestsEthereumType(t *testing.T, ts *httptest.Server) {

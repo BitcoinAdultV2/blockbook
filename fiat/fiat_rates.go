@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/stepollo2/blockbook/common"
-	"github.com/stepollo2/blockbook/db"
+	"github.com/BitcoinAdultV2/blockbook/common"
+	"github.com/BitcoinAdultV2/blockbook/db"
 )
 
 const currentTickersKey = "CurrentTickers"

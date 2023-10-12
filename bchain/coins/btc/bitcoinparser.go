@@ -5,8 +5,8 @@ import (
 	"math/big"
 
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/stepollo2/blockbook/bchain"
-	"github.com/stepollo2/blockbook/common"
+	"github.com/BitcoinAdultV2/blockbook/bchain"
+	"github.com/BitcoinAdultV2/blockbook/common"
 )
 
 // BitcoinParser handle
